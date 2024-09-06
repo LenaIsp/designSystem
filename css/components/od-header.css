@@ -1,0 +1,33 @@
+.od-header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 12px 16px;
+  background-color: var(--color-bg-inverse);
+  color: var(--color-bg-primary);
+}
+
+.od-header__side-right,
+.od-header__side-left {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.od-header__side-right .od-header__userpic {
+  margin-right: 4px;
+}
+
+.od-header__logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.od-header__logo-text {
+  margin-left: 8px;
+}

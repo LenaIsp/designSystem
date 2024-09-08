@@ -1,0 +1,36 @@
+.od-badge {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  padding: 2px 6px;
+  font-weight: 500;
+  color: var(--color-text-inverse);
+  border-radius: 4px;
+
+  &_status_new {
+    background-color: var(--color-accent-main);
+  }
+
+  &_status_waiting {
+    background-color: #f69134;
+  }
+  
+  &_status_signed {
+    background-color: var(--color-accent-success);
+  }
+  
+  &_status_expired {
+    background-color: #e94343;
+  }
+  
+  &_size_s {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  &_size_m {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+

@@ -1,0 +1,36 @@
+.od-notifications-menu {
+  display: block;
+  width: fit-content;
+  padding: 4px 12px;
+  background-color: var(--color-bg-primary);
+  box-shadow: 0 4px 8px rgba(40, 46, 54, 0.2);
+  border-radius: var(--border-radius-s);
+}
+
+.od-notifications-menu__item {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  cursor: pointer;
+  &_status_is-new .od-notifications-menu__item-badge {
+    display: block;
+    margin-bottom: 4px;
+  }
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--color-bg-divider);
+  }
+}
+
+.od-notifications-menu__item-content {
+  width: 325px;
+  color: var(--color-text-primary);
+}
+
+.od-notifications-menu__item-badge {
+  display: none;
+}
+
+.od-notifications-menu__item-icon {
+  color: rgba(0, 0, 0, 0.2);
+}
+
